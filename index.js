@@ -5,8 +5,7 @@ inquirer.registerPrompt("loop", require("inquirer-loop")(inquirer));
 
 const readmeGenerator = ({title, description, installation, usage, license, contributor, contri2, questions, tests, github, email, phone_number}) =>
 `
-# ${title}
-
+###<h1 align="center">${title} </h1>
 
 ## Table Of Contents
 
@@ -86,9 +85,6 @@ inquirer.prompt([
         name: "usage",
         message: "tell us how to use your application"
     },
-
-    
-    
     {
         type: "input",
         name: "email",
@@ -99,7 +95,6 @@ inquirer.prompt([
         name: "phone_number",
         message: "what is your Phone number?"
     },
-
     {
         type: "input",
         name: "github",
@@ -109,7 +104,6 @@ inquirer.prompt([
         type: "input",
         name: "questions",
         message: "What can i do if there is an issue?"
-
     },
     {
         type: "loop",
