@@ -1,0 +1,23 @@
+{
+  "name": "readme_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphson1/Readme_generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raphson1/Readme_generator/issues"
+  },
+  "homepage": "https://github.com/raphson1/Readme_generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "inquirer-loop": "^0.3.0"
+  }
+}
