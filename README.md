@@ -1,6 +1,6 @@
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
-# README FILE GENERATOR
+# README FILE GENERATOR 
 
 ## Table Of Contents
 
@@ -13,29 +13,29 @@
 - [Questions](#questions)
 
 ## Description 
-This readme generator helps to generate a readme.md file using node js </br> it is easy to use you just need to answer these questions and the readme file will be generated for you.
+This readme generator helps to generate a readme.md file using Node JS
 
 ## Installation
-> npm packages installation required
+> NPM packages installation required.
 
 ## Usage
-> you can use this application for generating your readme.md file but you will first need to install inquirer npm.
+> you can use this application to generate a readme.md for your application.
 
 ## License
-
 This application is covered by the MIT license. 
 
 > ## Contibutors
 > * Ruboneka Eric
 
 ## Test
-undefined
+there is no test needed for this application.
 
 ## Questions
-ex. my app is not running
+what can i do if i have a question?
 
-
-* Find me on [GitHub Link](https://github.com/raphson1)
-* Email me at raphsoneric@gmail.com
-* or Contact me 7378438010
+You can Find me here 
+--------------------
+* GitHub: [GitHub Link](https://github.com/raphson1)
+* Email: Raphsoneric@gmail.com
+* Phone Number: 7378438010
 

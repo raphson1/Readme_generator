@@ -42,9 +42,11 @@ ${tests}
 ## Questions
 ${questions}
 
-* Find me on [GitHub Link](https://github.com/${github})
-* Email me at ${email}
-* or Contact me ${phone_number}
+You can Find me here 
+--------------------
+* GitHub: [GitHub Link](https://github.com/${github})
+* Email: ${email}
+* Phone Number: ${phone_number}
 
 `
 
