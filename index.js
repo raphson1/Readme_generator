@@ -1,11 +1,15 @@
+// CONSTANTS
+
 const inquirer = require('inquirer');
 const fs = require('fs');
 inquirer.registerPrompt("loop", require("inquirer-loop")(inquirer));
 
-
 const readmeGenerator = ({title, description, installation, usage, license, contributor, contri2, questions, tests, github, email, phone_number}) =>
+
+// readme file contents
 `
-###<h1 align="center">${title} </h1>
+![badge](https://img.shields.io/badge/license-${license}-brightgreen)
+###<h1 align="center>${title} </h1>
 
 ## Table Of Contents
 
@@ -27,8 +31,7 @@ ${description}
 > ${usage}
 
 ## License
-![badge](https://img.shields.io/badge/license-${license}-brightgreen)
-<br />
+
 This application is covered by the ${license} license. 
 
 > ## Contibutors
@@ -45,10 +48,10 @@ ${questions}
 * Email me at ${email}
 * or Contact me ${phone_number}
 
-This README was generated with ❤️ by [README-generator](https://github.com/raphson1/README_generator)
-
-
 `
+
+// inquirer
+
 inquirer.prompt([
     {
         type:"input",
@@ -59,7 +62,7 @@ inquirer.prompt([
     {
         type: "input",
         name: "description",
-        message: "write your app description here in few lines."
+        message: "write your app description here in few lines. (To start a new line type </br>)"
     },
     {
         type: "input",
@@ -122,7 +125,6 @@ inquirer.prompt([
 ])
 .then((data) => {
     const pageContent = readmeGenerator(data);
-    console.log(data.contributor)
     fs.writeFile('README.md', pageContent, (err) =>
       err ? console.log(err) : console.log('Successfully created README.md  created')
     );
