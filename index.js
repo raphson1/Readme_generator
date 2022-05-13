@@ -31,7 +31,6 @@ ${description}
 > ${usage}
 
 ## License
-
 This application is covered by the ${license} license. 
 
 > ## Contibutors
@@ -42,7 +41,6 @@ ${tests}
 
 ## Questions
 ${questions}
-
 
 * Find me on [GitHub Link](https://github.com/${github})
 * Email me at ${email}
