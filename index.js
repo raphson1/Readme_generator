@@ -9,7 +9,7 @@ const readmeGenerator = ({title, description, installation, usage, license, cont
 // readme file contents
 `
 ![badge](https://img.shields.io/badge/license-${license}-brightgreen)
-###<h1 align="center>${title} </h1>
+# ${title} 
 
 ## Table Of Contents
 
@@ -44,7 +44,7 @@ ${tests}
 ${questions}
 
 
-*Find me on [GitHub Link](https://github.com/${github})
+* Find me on [GitHub Link](https://github.com/${github})
 * Email me at ${email}
 * or Contact me ${phone_number}
 
@@ -87,6 +87,11 @@ inquirer.prompt([
         type: "input",
         name: "usage",
         message: "tell us how to use your application"
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "does your application need a test? "
     },
     {
         type: "input",
